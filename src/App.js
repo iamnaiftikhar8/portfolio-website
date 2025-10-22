@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './styles/App.css';
 import Header from './components/Header';
 import Home from './components/Home';
-import Projects from './components/Projects';
+import Projects from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './styles/App.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
